@@ -304,6 +304,79 @@ ul.style2 a:hover {
 	text-decoration: underline;
 }
 
+/* Open Source Grid */
+
+.os-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	margin-bottom: 10px;
+}
+
+.os-grid .os-card {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 6px;
+	padding: 14px 16px;
+}
+
+.os-grid .os-card h3 {
+	font-size: 0.95em;
+	font-weight: 600;
+	color: #333;
+	margin: 0 0 6px 0;
+	padding: 0 0 6px 0;
+	border-bottom: 2px solid #22222D;
+}
+
+.os-grid .os-card h3 a {
+	color: #555;
+	font-weight: 400;
+	font-size: 0.85em;
+	text-decoration: none;
+}
+
+.os-grid .os-card h3 a:hover {
+	text-decoration: underline;
+}
+
+.os-grid .os-card ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.os-grid .os-card ul li {
+	margin: 3px 0;
+	padding: 0;
+	font-size: 0.92em;
+	line-height: 1.5;
+}
+
+.os-grid .os-card ul li a {
+	font-weight: 600;
+	color: #22222D;
+	text-decoration: none;
+}
+
+.os-grid .os-card ul li a:hover {
+	text-decoration: underline;
+}
+
+.os-grid .os-card ul li .os-desc {
+	color: #777;
+	font-size: 0.9em;
+}
+
+.os-grid .os-full {
+	grid-column: 1 / -1;
+}
+
+.os-grid .os-full ul {
+	columns: 2;
+	column-gap: 24px;
+}
+
 /* Button Style 1 */
 
 .button-style {
